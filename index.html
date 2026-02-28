@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Souptik Hazra | ML Engineer & Full Stack Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Souptik<span>Hazra</span></h2>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="toggle-btn" onclick="toggleTheme()">Theme</button>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Hi, I'm <span>Souptik Hazra</span></h1>
+        <p id="typing"></p>
+
+        <p style="margin-top:10px;opacity:0.8;">
+            Building Intelligent Systems with ML + Scalable Web Architectures
+        </p>
+
+        <div style="margin-top:20px;">
+            <button class="btn" onclick="document.getElementById('projects').scrollIntoView()">
+                View Projects
+            </button>
+
+            <a href="Resume.pdf" class="btn" download style="margin-left:10px;">
+                Download Resume
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+        MCA student (GPA 9.12) specializing in Machine Learning and Full Stack Engineering.
+        Focused on integrating ML/DL models into scalable production systems using MERN and Python.
+        Strong foundation in model development, backend APIs, system optimization, and deployment workflows.
+    </p>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>MCA – VIT Vellore</h3>
+            <p>2025 – 2027</p>
+            <p><strong>GPA: 9.12</strong></p>
+        </div>
+
+        <div class="project-card">
+            <h3>B.Sc Computer Science (Hons) – University of Calcutta</h3>
+            <p>2022 – 2025</p>
+            <p><strong>CGPA: 8.225</strong></p>
+        </div>
+
+        <div class="project-card">
+            <h3>Indian School Certificate (ISC)</h3>
+            <p>St. Stephen's School, Dum Dum, Kolkata</p>
+            <p>2022</p>
+            <p><strong>Percentage: 83.83%</strong></p>
+        </div>
+
+        <div class="project-card">
+            <h3>Indian Certificate of Secondary Education (ICSE)</h3>
+            <p>St. Joan's School, Salt Lake, Kolkata</p>
+            <p>2020</p>
+            <p><strong>Percentage: 93.17%</strong></p>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2 class="section-title">Technical Expertise</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <h3>Machine Learning</h3>
+            <p>Scikit-learn, TensorFlow, LSTM, XGBoost, Regression, Classification, Feature Engineering</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Backend Development</h3>
+            <p>Node.js, Express.js, Flask, REST APIs, MongoDB, MySQL</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Frontend Development</h3>
+            <p>React.js, HTML5, CSS3, JavaScript, Responsive UI</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Deployment & Tools</h3>
+            <p>Git, GitHub, Vercel, Netlify, Postman</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <h3>Air Quality Prediction System</h3>
+            <p>
+                Built an LSTM-based deep learning model for multi-step air quality forecasting.
+                Integrated Flask REST API with React frontend and external APIs.
+                Optimized preprocessing and scaling pipelines for real-time predictions.
+            </p>
+            <p><a href="https://github.com/Souptik-Hazra" target="_blank">View Code</a></p>
+        </div>
+
+        <div class="project-card">
+            <h3>ML-Driven Dynamic Ticket Pricing</h3>
+            <p>
+                Designed XGBoost-based regression model for demand-aware ticket pricing.
+                Implemented caching and asynchronous backend architecture for performance optimization.
+                Integrated ML inference into MERN production workflow.
+            </p>
+            <p><a href="https://github.com/Souptik-Hazra" target="_blank">View Code</a></p>
+        </div>
+
+        <div class="project-card">
+            <h3>Temporal Graph Link Prediction</h3>
+            <p>
+                Developed logistic regression model for future link formation in dynamic networks.
+                Engineered temporal structural features and implemented heuristic baselines.
+            </p>
+            <p><a href="https://github.com/Souptik-Hazra" target="_blank">View Code</a></p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <h3>IBM</h3>
+            <p>Python for Data Science, AI & Development</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Oracle</h3>
+            <p>OCI 2025 Certified AI Foundations Associate</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact">
+        <p>Email: souptikhazra2003@gmail.com</p>
+        <p>GitHub: github.com/Souptik-Hazra</p>
+        <p>Kaggle: kaggle.com/souptikhazra</p>
+        <p>LinkedIn: linkedin.com/in/souptik-hazra/</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Souptik Hazra | ML Engineer & Full Stack Developer
+</footer>
+
+<script>
+
+/* ===== THEME TOGGLE ===== */
+function toggleTheme(){
+    document.body.classList.toggle("light");
+
+    if(document.body.classList.contains("light")){
+        localStorage.setItem("theme","light");
+    } else {
+        localStorage.setItem("theme","dark");
+    }
+}
+
+window.onload = function(){
+    if(localStorage.getItem("theme") === "light"){
+        document.body.classList.add("light");
+    }
+}
+
+/* ===== TYPING EFFECT ===== */
+const roles = ["ML Engineer ", "Full Stack Developer ", "MERN Developer ", "AI Enthusiast "];
+let i=0,j=0,current="",isDeleting=false;
+
+function typeEffect(){
+    current = roles[i];
+    document.getElementById("typing").textContent = current.substring(0,j);
+
+    if(!isDeleting && j<current.length) j++;
+    else if(isDeleting && j>0) j--;
+
+    if(j==current.length){
+        isDeleting=true;
+        setTimeout(typeEffect,800);
+        return;
+    }
+
+    if(j==0 && isDeleting){
+        isDeleting=false;
+        i=(i+1)%roles.length;
+    }
+
+    setTimeout(typeEffect,isDeleting?50:100);
+}
+
+typeEffect();
+
+</script>
+
+</body>
+</html>
