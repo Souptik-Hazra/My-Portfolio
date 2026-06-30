@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Souptik Hazra | ML Engineer & Full Stack Developer</title>
+<title>Souptik Hazra | Data Analyst & ML Practitioner</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -14,9 +14,16 @@
 <nav>
     <h2>Souptik<span>Hazra</span></h2>
 
-    <ul>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="nav-menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <ul id="nav-menu">
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#certifications">Certifications</a></li>
@@ -28,23 +35,27 @@
 
 <!-- HERO -->
 <div class="hero">
-    <div>
+    <div class="hero-content">
         <h1>Hi, I'm <span>Souptik Hazra</span></h1>
         <p id="typing"></p>
 
         <p style="margin-top:10px;opacity:0.8;">
-            Building Intelligent Systems with ML + Scalable Web Architectures
+            Building Data-Driven Solutions with Modern Technologies
         </p>
 
-        <div style="margin-top:20px;">
+        <div class="hero-actions">
             <button class="btn" onclick="document.getElementById('projects').scrollIntoView()">
                 View Projects
             </button>
 
-            <a href="Resume.pdf" class="btn" download style="margin-left:10px;">
+            <a href="DSDADE.pdf" class="btn" download>
                 Download Resume
             </a>
         </div>
+    </div>
+
+    <div class="hero-badge">
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="souptik-hazra" data-version="v1"></div>
     </div>
 </div>
 
@@ -52,73 +63,172 @@
 <section id="about">
     <h2 class="section-title">About Me</h2>
     <p class="about-text">
-        MCA student (GPA 9.12) specializing in Machine Learning and Full Stack Engineering.
-        Focused on integrating ML/DL models into scalable production systems using MERN and Python.
-        Strong foundation in model development, backend APIs, system optimization, and deployment workflows.
+        MCA student at VIT Vellore with expertise across the Data & AI lifecycle, including analytics, engineering, machine learning, and scalable application development.
+        Passionate about transforming data into actionable insights and building production-ready software solutions.
     </p>
 </section>
 
 <!-- EDUCATION -->
 <section id="education">
     <h2 class="section-title">Education</h2>
+    <p class="education-intro">My academic foundation in computer science, data, and intelligent systems.</p>
+
+    <div class="education-grid">
+        <article class="education-card">
+            <div class="education-card-header">
+                <span class="education-type">Postgraduate</span>
+                <span class="education-year">2025 – 2027</span>
+            </div>
+            <h3>Master of Computer Applications</h3>
+            <p class="education-institution">VIT Vellore</p>
+            <div class="education-result">
+                <span>CGPA</span>
+                <strong>9.06</strong>
+            </div>
+        </article>
+
+        <article class="education-card">
+            <div class="education-card-header">
+                <span class="education-type">Undergraduate</span>
+                <span class="education-year">2022 – 2025</span>
+            </div>
+            <h3>B.Sc Computer Science (Hons)</h3>
+            <p class="education-institution">University of Calcutta</p>
+            <div class="education-result">
+                <span>CGPA</span>
+                <strong>8.225</strong>
+            </div>
+        </article>
+
+        <article class="education-card">
+            <div class="education-card-header">
+                <span class="education-type">Higher Secondary</span>
+                <span class="education-year">2022</span>
+            </div>
+            <h3>Indian School Certificate (ISC)</h3>
+            <p class="education-institution">St. Stephen's School, Dum Dum, Kolkata</p>
+            <div class="education-result">
+                <span>Percentage</span>
+                <strong>83.83%</strong>
+            </div>
+        </article>
+
+        <article class="education-card">
+            <div class="education-card-header">
+                <span class="education-type">Secondary</span>
+                <span class="education-year">2020</span>
+            </div>
+            <h3>Indian Certificate of Secondary Education (ICSE)</h3>
+            <p class="education-institution">St. Joan's School, Salt Lake, Kolkata</p>
+            <div class="education-result">
+                <span>Percentage</span>
+                <strong>93.17%</strong>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+    <h2 class="section-title">Experience</h2>
 
     <div class="project-grid">
-        <div class="project-card">
-            <h3>MCA – VIT Vellore</h3>
-            <p>2025 – 2027</p>
-            <p><strong>GPA: 9.12</strong></p>
-        </div>
-
-        <div class="project-card">
-            <h3>B.Sc Computer Science (Hons) – University of Calcutta</h3>
-            <p>2022 – 2025</p>
-            <p><strong>CGPA: 8.225</strong></p>
-        </div>
-
-        <div class="project-card">
-            <h3>Indian School Certificate (ISC)</h3>
-            <p>St. Stephen's School, Dum Dum, Kolkata</p>
-            <p>2022</p>
-            <p><strong>Percentage: 83.83%</strong></p>
-        </div>
-
-        <div class="project-card">
-            <h3>Indian Certificate of Secondary Education (ICSE)</h3>
-            <p>St. Joan's School, Salt Lake, Kolkata</p>
-            <p>2020</p>
-            <p><strong>Percentage: 93.17%</strong></p>
-        </div>
-
-
+        <article class="project-card">
+            <h3>Data Analyst Intern - Bluestock Fintech</h3>
+            <p><strong>Jun 2026 - Present | Remote</strong></p>
+            <p>
+                Developed a mutual fund analytics platform using Python, PostgreSQL, Power BI, and Excel.
+                Built ETL workflows for extraction, cleaning, validation, and feature engineering.
+                Delivered interactive KPI dashboards and reports to support investment and business decisions.
+            </p>
+        </article>
     </div>
 </section>
 
 <!-- SKILLS -->
 <section id="skills">
     <h2 class="section-title">Technical Expertise</h2>
+    <p class="skills-intro">Choose a job profile to explore the technologies and capabilities aligned with my current work.</p>
+
+    <div class="profile-filters" role="group" aria-label="Filter skills by job profile">
+        <button class="profile-filter active" type="button" data-filter="all" aria-pressed="true">All Profiles</button>
+        <button class="profile-filter" type="button" data-filter="analyst" aria-pressed="false">Data &amp; BI Analyst</button>
+        <button class="profile-filter" type="button" data-filter="ml-engineer" aria-pressed="false">ML Engineer &amp; Practitioner</button>
+        <button class="profile-filter" type="button" data-filter="backend" aria-pressed="false">Backend Developer</button>
+        <button class="profile-filter" type="button" data-filter="fullstack" aria-pressed="false">Full Stack Developer</button>
+        <button class="profile-filter" type="button" data-filter="engineer" aria-pressed="false">Data Engineer</button>
+    </div>
 
     <div class="skills-container">
+        <article class="skill-box" data-profile="analyst">
+            <div class="skill-profile-header">
+                <span class="skill-profile-icon" aria-hidden="true">DBI</span>
+                <div>
+                    <span class="skill-profile-label">Job profile</span>
+                    <h3>Data &amp; BI Analyst</h3>
+                </div>
+            </div>
+            <p>Combining data analysis with business intelligence to deliver clean data pipelines, exploratory insights, and KPI-driven dashboards.</p>
+            <div class="skill-tags" aria-label="Data and business intelligence skills">
+                <span>Python</span><span>SQL</span><span>EDA</span><span>Power BI</span><span>Power Query</span><span>Statistics</span><span>KPI Reporting</span>
+            </div>
+        </article>
 
-        <div class="skill-box">
-            <h3>Machine Learning</h3>
-            <p>Scikit-learn, TensorFlow, LSTM, XGBoost, Regression, Classification, Feature Engineering</p>
-        </div>
+        <article class="skill-box" data-profile="engineer">
+            <div class="skill-profile-header">
+                <span class="skill-profile-icon" aria-hidden="true">DE</span>
+                <div>
+                    <span class="skill-profile-label">Job profile</span>
+                    <h3>Data Engineer</h3>
+                </div>
+            </div>
+            <p>Designing ETL workflows and dependable data pipelines for consistent, validated, analytics-ready datasets.</p>
+            <div class="skill-tags" aria-label="Data engineering skills">
+                <span>ETL</span><span>PostgreSQL</span><span>MySQL</span><span>Data Validation</span><span>Data Modeling</span>
+            </div>
+        </article>
 
-        <div class="skill-box">
-            <h3>Backend Development</h3>
-            <p>Node.js, Express.js, Flask, REST APIs, MongoDB, MySQL</p>
-        </div>
+        <article class="skill-box" data-profile="ml-engineer">
+            <div class="skill-profile-header">
+                <span class="skill-profile-icon" aria-hidden="true">ML</span>
+                <div>
+                    <span class="skill-profile-label">Job profile</span>
+                    <h3>ML Engineer &amp; Practitioner</h3>
+                </div>
+            </div>
+            <p>Predictive modeling, feature engineering, model evaluation, and production-focused ML workflows.</p>
+            <div class="skill-tags" aria-label="Machine learning engineer skills">
+                <span>Python</span><span>Scikit-learn</span><span>TensorFlow</span><span>LSTM</span><span>XGBoost</span><span>Random Forest</span><span>Logistic Regression</span>
+            </div>
+        </article>
 
-        <div class="skill-box">
-            <h3>Frontend Development</h3>
-            <p>React.js, HTML5, CSS3, JavaScript, Responsive UI</p>
-        </div>
+        <article class="skill-box" data-profile="backend">
+            <div class="skill-profile-header">
+                <span class="skill-profile-icon" aria-hidden="true">BE</span>
+                <div>
+                    <span class="skill-profile-label">Job profile</span>
+                    <h3>Backend Developer</h3>
+                </div>
+            </div>
+            <p>Building reliable APIs, server-side services, and database-backed systems.</p>
+            <div class="skill-tags" aria-label="Backend developer skills">
+                <span>Node.js</span><span>Express.js</span><span>Flask</span><span>REST APIs</span><span>MongoDB</span><span>MySQL</span>
+            </div>
+        </article>
 
-        <div class="skill-box">
-            <h3>Deployment & Tools</h3>
-            <p>Git, GitHub, Vercel, Netlify, Postman</p>
-        </div>
-
+        <article class="skill-box" data-profile="fullstack">
+            <div class="skill-profile-header">
+                <span class="skill-profile-icon" aria-hidden="true">FS</span>
+                <div>
+                    <span class="skill-profile-label">Job profile</span>
+                    <h3>Full Stack Developer</h3>
+                </div>
+            </div>
+            <p>Creating responsive interfaces connected to scalable backend services and databases.</p>
+            <div class="skill-tags" aria-label="Full stack development skills">
+                <span>React.js</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>MERN</span><span>Git</span>
+            </div>
+        </article>
     </div>
 </section>
 
@@ -144,6 +254,26 @@
                 Designed XGBoost-based regression model for demand-aware ticket pricing.
                 Implemented caching and asynchronous backend architecture for performance optimization.
                 Integrated ML inference into MERN production workflow.
+            </p>
+            <p><a href="https://github.com/Souptik-Hazra" target="_blank">View Code</a></p>
+        </div>
+
+        <div class="project-card">
+            <h3>Airbnb Market Intelligence and Price Prediction</h3>
+            <p>
+                Built an end-to-end analytics platform for Airbnb listings across 10 cities.
+                Created ETL workflows for cleaning, preprocessing, feature engineering, and EDA.
+                Designed Power BI dashboards and trained a Random Forest Regressor for price prediction.
+            </p>
+            <p><a href="https://github.com/Souptik-Hazra" target="_blank">View Code</a></p>
+        </div>
+
+        <div class="project-card">
+            <h3>Mutual Fund Analytics Platform</h3>
+            <p>
+                Developed a financial analytics solution using Python, PostgreSQL, Power BI, and Excel.
+                Implemented data extraction, cleaning, validation, and reporting pipelines.
+                Produced KPI-focused dashboards for investor trend and performance analysis.
             </p>
             <p><a href="https://github.com/Souptik-Hazra" target="_blank">View Code</a></p>
         </div>
@@ -181,20 +311,63 @@
 
 <!-- CONTACT -->
 <section id="contact">
-    <h2 class="section-title">Contact</h2>
-    <div class="contact">
-        <p>Email: souptikhazra2003@gmail.com</p>
-        <p>GitHub: github.com/Souptik-Hazra</p>
-        <p>Kaggle: kaggle.com/souptikhazra</p>
-        <p>LinkedIn: linkedin.com/in/souptik-hazra/</p>
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="contact-intro">
+        Have a project, opportunity, or idea in mind? Reach out through any of these platforms.
+    </p>
+
+    <div class="contact-grid">
+        <a class="contact-card" href="mailto:souptikhazra2003@gmail.com">
+            <span class="contact-icon" aria-hidden="true">@</span>
+            <span class="contact-details">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">souptikhazra2003@gmail.com</span>
+            </span>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="contact-card" href="https://github.com/Souptik-Hazra" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon contact-icon--text" aria-hidden="true">GH</span>
+            <span class="contact-details">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/Souptik-Hazra</span>
+            </span>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="contact-card" href="https://www.kaggle.com/souptikhazra" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon contact-icon--text" aria-hidden="true">K</span>
+            <span class="contact-details">
+                <span class="contact-label">Kaggle</span>
+                <span class="contact-value">kaggle.com/souptikhazra</span>
+            </span>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="contact-card" href="https://www.linkedin.com/in/souptik-hazra/" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon contact-icon--linkedin" aria-hidden="true">in</span>
+            <span class="contact-details">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">linkedin.com/in/souptik-hazra</span>
+            </span>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+        </a>
     </div>
 </section>
 
 <footer>
-    © 2026 Souptik Hazra | ML Engineer & Full Stack Developer
+    © 2026 Souptik Hazra | Data Analyst & ML Practitioner
 </footer>
 
 <script>
+(function() {
+    var script = document.createElement('script');
+    script.src = 'https://platform.linkedin.com/badges/js/profile.js';
+    script.async = true;
+    script.defer = true;
+    script.type = 'text/javascript';
+    document.body.appendChild(script);
+})();
 
 /* ===== THEME TOGGLE ===== */
 function toggleTheme(){
@@ -213,8 +386,70 @@ window.onload = function(){
     }
 }
 
+/* ===== MOBILE NAVIGATION ===== */
+const siteNav = document.querySelector("nav");
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelectorAll("#nav-menu a");
+
+function closeMenu(){
+    siteNav.classList.remove("menu-open");
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.setAttribute("aria-label", "Open navigation menu");
+}
+
+menuToggle.addEventListener("click", function(){
+    const isOpen = siteNav.classList.toggle("menu-open");
+    menuToggle.setAttribute("aria-expanded", String(isOpen));
+    menuToggle.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
+});
+
+navLinks.forEach(function(link){
+    link.addEventListener("click", closeMenu);
+});
+
+window.addEventListener("resize", function(){
+    if(window.innerWidth > 1100){
+        closeMenu();
+    }
+});
+
+document.addEventListener("keydown", function(event){
+    if(event.key === "Escape"){
+        closeMenu();
+    }
+});
+
+/* ===== JOB PROFILE FILTER ===== */
+const profileButtons = document.querySelectorAll(".profile-filter");
+const skillProfiles = document.querySelectorAll("#skills [data-profile]");
+const skillsGrid = document.querySelector("#skills .skills-container");
+
+profileButtons.forEach(function(button){
+    button.addEventListener("click", function(){
+        const selectedProfile = button.dataset.filter;
+
+        profileButtons.forEach(function(item){
+            const isActive = item === button;
+            item.classList.toggle("active", isActive);
+            item.setAttribute("aria-pressed", String(isActive));
+        });
+
+        skillProfiles.forEach(function(card){
+            card.hidden = selectedProfile !== "all" && card.dataset.profile !== selectedProfile;
+        });
+
+        skillsGrid.classList.toggle("single-profile", selectedProfile !== "all");
+    });
+});
+
 /* ===== TYPING EFFECT ===== */
-const roles = ["ML Engineer ", "Full Stack Developer ", "MERN Developer ", "AI Enthusiast "];
+const roles = [
+    "MCA Student ",
+    "Data & AI Enthusiast ",
+    "Software Development Enthusiast ",
+    "Open Source Learner ",
+    "Problem Solver "
+];
 let i=0,j=0,current="",isDeleting=false;
 
 function typeEffect(){
