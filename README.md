@@ -4,11 +4,11 @@
 
 ### Data Analytics • Machine Learning • Data Engineering • Software Development
 
-A modern, responsive portfolio website showcasing my projects, internship experience, technical skills, certifications, and professional journey.
+A modern, responsive portfolio website showcasing my projects, education, internship experience, technical skills, certifications, and professional journey.
 
 <p>
 
-<a href="https://souptikhazra.vercel.app/">
+<a href="https://souptikhazra.vercel.app">
 <img src="https://img.shields.io/badge/🌍_Live_Website-Visit_Now-2563EB?style=for-the-badge">
 </a>
 
@@ -24,6 +24,8 @@ A modern, responsive portfolio website showcasing my projects, internship experi
 
 <p>
 
+<img src="https://img.shields.io/github/v/release/Souptik-Hazra/My-Portfolio?style=flat-square">
+
 <img src="https://img.shields.io/github/last-commit/Souptik-Hazra/My-Portfolio?style=flat-square">
 
 <img src="https://img.shields.io/github/repo-size/Souptik-Hazra/My-Portfolio?style=flat-square">
@@ -32,34 +34,59 @@ A modern, responsive portfolio website showcasing my projects, internship experi
 
 <img src="https://img.shields.io/github/license/Souptik-Hazra/My-Portfolio?style=flat-square">
 
+<img src="https://img.shields.io/github/issues/Souptik-Hazra/My-Portfolio?style=flat-square">
+
+<img src="https://img.shields.io/github/commit-activity/m/Souptik-Hazra/My-Portfolio?style=flat-square">
+
 </p>
 
 </div>
 
 ---
 
+# 📑 Table of Contents
+
+- 📖 About
+- ✨ Features
+- 🛠 Tech Stack
+- 📷 Preview
+- 📂 Project Structure
+- 🚀 Getting Started
+- 📊 Highlights
+- 🎯 Project Overview
+- 🚀 Deployment
+- 📈 Repository Highlights
+- 🔮 Future Enhancements
+- 🤝 Connect With Me
+- ⭐ Support
+- 📄 License
+
+---
+
 # 📖 About
 
-This repository contains the source code for my personal portfolio website, developed to present my academic background, internship experience, technical expertise, certifications, and featured projects in a clean, responsive, and interactive interface.
+This repository contains the source code for my personal portfolio website.
 
-The portfolio is designed with simplicity, accessibility, and performance in mind while providing recruiters, hiring managers, and collaborators with a comprehensive overview of my work.
+The website is designed to showcase my education, internships, featured projects, technical skills, certifications, and resume through a clean, responsive, and recruiter-friendly interface.
+
+Built with simplicity, accessibility, and performance in mind, it serves as a central place for recruiters, collaborators, and developers to explore my work.
 
 ---
 
 # ✨ Features
 
-- 🎨 Modern Responsive UI
+- 🎨 Modern & Responsive UI
 - 🌙 Dark & Light Theme
-- ⚡ Smooth Navigation
+- ⚡ Smooth Scrolling Navigation
 - ⌨️ Animated Typing Effect
 - 💼 Internship & Experience Section
 - 🎓 Education Timeline
-- 🎯 Interactive Skill Filters
+- 🎯 Interactive Skills Section
 - 🚀 Featured Projects Showcase
-- 📜 Certifications
+- 📜 Certifications Section
 - 📄 Resume Download
-- 📱 Mobile Optimized
-- 🌐 Deployed on Vercel
+- 📱 Mobile Friendly Design
+- 🌐 Live Deployment on Vercel
 
 ---
 
@@ -67,17 +94,12 @@ The portfolio is designed with simplicity, accessibility, and performance in min
 
 | Category | Technologies |
 |-----------|--------------|
-| Frontend | HTML5, CSS3, JavaScript |
-| Styling | CSS Grid, Flexbox, Responsive Design |
+| Languages | HTML5 • CSS3 • JavaScript |
+| Styling | CSS Grid • Flexbox • Responsive Design |
+| UI/UX | Dark Theme • Light Theme • CSS Animations |
 | Deployment | Vercel |
-| Version Control | Git & GitHub |
+| Version Control | Git • GitHub |
 | Automation | GitHub Actions |
-
----
-
-# 🌐 Live Website
-
-### 🔗 https://souptikhazra.vercel.app/
 
 ---
 
@@ -86,37 +108,39 @@ The portfolio is designed with simplicity, accessibility, and performance in min
 ## 🎥 Portfolio Demo
 
 <p align="center">
-<img src="assets/screenshots/demo.gif" width="900" alt="Portfolio Demo">
+<img src="assets/screenshots/demo.gif" width="900">
 </p>
 
 ---
 
-## 🖥️ Desktop View
+## 🖥 Desktop Preview
 
 <p align="center">
-<img src="assets/screenshots/desktop.png" width="900" alt="Desktop Preview">
+<img src="assets/screenshots/desktop.png" width="900">
 </p>
 
 ---
 
-## 📱 Mobile View
+## 📱 Mobile Preview
 
 <p align="center">
-<img src="assets/screenshots/mobile.png" width="280" alt="Mobile Preview">
+<img src="assets/screenshots/mobile.png" width="280">
 </p>
 
 ---
 
-# 📊 Portfolio Highlights
+# 📊 Highlights
 
 | Category | Details |
 |----------|---------|
 | 🎓 Education | MCA @ VIT Vellore |
-| 💼 Experience | Data Analyst Intern |
+| 💼 Internship | AICTE Oasis Infobyte – Data Science Intern |
 | 🚀 Featured Projects | 5+ |
 | 📜 Certifications | 10+ |
+| 💻 Technical Skills | 30+ |
 | 📱 Responsive Design | Desktop & Mobile |
 | 🌐 Deployment | Vercel |
+| ⚡ Performance | Optimized |
 
 ---
 
@@ -127,6 +151,7 @@ My-Portfolio/
 │
 ├── .github/
 │   └── workflows/
+│       └── deploy.yml
 │
 ├── assets/
 │   └── screenshots/
@@ -145,47 +170,48 @@ My-Portfolio/
 
 # 🚀 Getting Started
 
-## Clone the repository
+## Prerequisites
+
+- Modern Web Browser
+- Visual Studio Code (Recommended)
+- Live Server Extension (Optional)
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/Souptik-Hazra/My-Portfolio.git
 ```
 
-## Navigate to the project
+## Navigate
 
 ```bash
 cd My-Portfolio
 ```
 
-## Open the project
+## Run
 
-Simply open
+Open
 
 ```text
 index.html
 ```
 
-or launch the project using **VS Code Live Server**.
+or launch using **VS Code Live Server**.
 
 ---
 
-# 💡 Why This Portfolio?
+# 🎯 Project Overview
 
-This portfolio serves as a centralized platform to showcase my:
+This portfolio acts as a central platform to present my:
 
-- Academic Journey
-- Internship Experience
-- Technical Skills
-- Featured Projects
-- Certifications
-- Professional Growth
+- 🎓 Education
+- 💼 Internship Experience
+- 🚀 Featured Projects
+- 💻 Technical Skills
+- 📜 Certifications
+- 📄 Resume
 
-It is designed to provide recruiters and collaborators with a concise overview of my work in:
-
-- Data Analytics
-- Machine Learning
-- Data Engineering
-- Software Development
+The website is designed to provide recruiters, hiring managers, collaborators, and fellow developers with a concise overview of my academic and professional journey.
 
 ---
 
@@ -193,21 +219,35 @@ It is designed to provide recruiters and collaborators with a concise overview o
 
 | Platform | Status |
 |----------|--------|
-| Vercel | ✅ Production |
-| GitHub Actions | ✅ Enabled |
+| Vercel | ✅ Live |
+| GitHub Actions | ✅ Workflow Enabled |
+| GitHub Releases | ✅ Versioned |
 
 ---
 
-# 📈 Repository Status
+# 📈 Repository Highlights
 
-- ✅ Responsive Design
-- ✅ Mobile Friendly
-- ✅ Semantic HTML
-- ✅ Accessibility Focused
-- ✅ SEO Friendly
-- ✅ Performance Optimized
-- ✅ Clean Code Structure
-- ✅ Modern UI/UX
+- ✔ Responsive Design
+- ✔ Mobile Optimized
+- ✔ Semantic HTML
+- ✔ SEO Friendly
+- ✔ Accessibility Focused
+- ✔ Performance Optimized
+- ✔ Lightweight
+- ✔ Clean Code Structure
+- ✔ Modern UI/UX
+- ✔ Production Ready
+
+---
+
+# 🔮 Future Enhancements
+
+- 📈 Visitor Analytics Dashboard
+- 📝 Blog Section
+- 🔍 Project Search & Filtering
+- 📬 Contact Form Backend
+- 🌍 Multi-language Support
+- 📱 Progressive Web App (PWA)
 
 ---
 
@@ -237,9 +277,9 @@ It is designed to provide recruiters and collaborators with a concise overview o
 
 # ⭐ Support
 
-If you found this project helpful or inspiring, consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
-It helps increase the visibility of the project and motivates further improvements.
+Your support helps increase the visibility of the project and motivates future improvements.
 
 ---
 
@@ -247,12 +287,16 @@ It helps increase the visibility of the project and motivates further improvemen
 
 This project is licensed under the **MIT License**.
 
+See the **LICENSE** file for complete license information.
+
 ---
 
 <div align="center">
 
-### Made with ❤️ by Souptik Hazra
+## ❤️ Made with passion by Souptik Hazra
 
 **Thanks for visiting!**
+
+⭐ If you like this project, consider giving it a star.
 
 </div>
